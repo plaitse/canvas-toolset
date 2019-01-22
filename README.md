@@ -11,14 +11,13 @@ Animations are only the result of drawing and redrawing shapes. The performance 
 ## Tips
 
 - If a rendering seems distorted when setting its size via CSS, you need to specify a width and a height directly in the <canvas> HTML tag.
-- Always specify ```moveTo()``` after ```beginPath()``` when building a path before drawing any line/shape.
-- Angles are in radians not degrees: ```radians = (Math.PI/180)*degrees```.
+- If a rendering seem distorted when setting its size via CSS, you need to specify a width and a height directly in the <canvas> HTML tag.
 - To animate a shape, you need before every move to save the canvas original state, clear the canvas and restore the canvas original state.
 - How to position elements with operations:
 
 ![alt text](Operations.png)
 
 
-## Further documentation
+## Documentation
 
 https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial 
