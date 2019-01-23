@@ -2,7 +2,7 @@
 
 ## What is Canvas?
 
-The HTML tag ```<canvas>``` - supported in all modern browsers - is an element to draw graphics (graphs, animations, etc.) with a JavaScript context object which creates graphics on the fly ; it uses Canvas API.
+The HTML tag ```<canvas>``` - supported in all modern browsers - is an element to draw graphics (graphs, animations, etc.) with a JavaScript context object which creates graphics on the fly; it uses Canvas API.
 
 Canvas only supports one primitive shape: rectangles. To create other shapes, simple or complexe, we need to combine paths, lists of points connected by lines and use functions.
 
